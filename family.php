@@ -100,8 +100,8 @@ $family = [$valera, $alexey, $olga, $vasya, $tatiana, $igor, $elena];
 
 echo "<h2>Пара слов о моей семье:</h2>";
 
-foreach($family as $qq) {
-    echo $qq->getInfo();
+foreach($family as $familyName) {
+    echo $familyName->getInfo();
     
 }
 
